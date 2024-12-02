@@ -251,7 +251,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
-    background: linear-gradient(to top right,rgba(151, 143, 165, 0.85), rgba(36, 12, 213, 0.85)),url(/img/5631533.jpg);
+    background: linear-gradient(to top right,rgba(151, 143, 165, 0.85), rgba(36, 12, 213, 0.85)),url(/img/background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -931,7 +931,7 @@ a:focus {
     margin: 45px 0;
     padding: 90px 0;
     background: #1B1464;
-    background: linear-gradient(to top right,rgba(151, 143, 165, 0.85), rgba(36, 12, 213, 0.85)), url(/img/5631533.jpg);
+    background: linear-gradient(to top right,rgba(151, 143, 165, 0.85), rgba(36, 12, 213, 0.85)), url(/img/background.jpg);
 }
 
 .banner .container {
@@ -988,7 +988,7 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 45px 0 15px 0;
-    background: linear-gradient(to top right,rgba(151, 143, 165, 0.85), rgba(36, 12, 213, 0.85)), url(/img/5631533.jpg);
+    background: linear-gradient(to top right,rgba(151, 143, 165, 0.85), rgba(36, 12, 213, 0.85)), url(/img/background.jpg);
     
 }
 
@@ -1127,7 +1127,7 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 45px 0 15px 0;
-    background: url(/img/5631533.jpg);
+    background: url(/img/background.jpg);
 }
 
 .team .team-item {
@@ -1252,7 +1252,7 @@ a:focus {
     margin: 45px 0;
     padding: 90px 0;
     background: #1B1464;
-    background: linear-gradient(to top right,rgba(151, 143, 165, 0.85), rgba(36, 12, 213, 0.85)), url(/img/5631533.jpg);
+    background: linear-gradient(to top right,rgba(151, 143, 165, 0.85), rgba(36, 12, 213, 0.85)), url(/img/background.jpg);
 }
 
 .testimonial .container {
@@ -1343,7 +1343,7 @@ a:focus {
     width: 100%;
     margin: 45px 0;
     background: #1B1464;
-    background: linear-gradient(to top right,rgba(151, 143, 165, 0.85), rgba(36, 12, 213, 0.85)), url(/img/5631533.jpg);
+    background: linear-gradient(to top right,rgba(151, 143, 165, 0.85), rgba(36, 12, 213, 0.85)), url(/img/background.jpg);
 }
 
 .contact .container-fluid {
@@ -1505,7 +1505,7 @@ a:focus {
     position: relative;
     margin-top: 45px;
     background: #1B1464;
-    background: linear-gradient(to top right,rgba(151, 143, 165, 0.85), rgba(36, 12, 213, 0.85)), url(/img/5631533.jpg);
+    background: linear-gradient(to top right,rgba(151, 143, 165, 0.85), rgba(36, 12, 213, 0.85)), url(/img/background.jpg);
 }
 
 .footer .container-fluid {
