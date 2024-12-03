@@ -251,7 +251,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
-    background: linear-gradient(to top right,rgba(151, 143, 165, 0.85), rgba(36, 12, 213, 0.85)),url(/img/background.jpg);
+    background: linear-gradient(to bottom right,rgba(71, 139, 254, 0.85),rgba(71,139,254,0.85),rgba(151, 143, 165, 0.85),rgba(96,25,254,0.85), rgba(126, 62, 238, 0.85)),url(/img/background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -260,6 +260,7 @@ a:focus {
 .hero .container-fluid {
     padding: 0;
 }
+
 
 .hero .hero-image {
     position: relative;
@@ -281,6 +282,11 @@ a:focus {
     flex-direction: column;
 }
 
+.hero .hero-text {
+    color: #ffffff;
+    text-align: left;
+}
+
 .hero .hero-text p {
     color: #ffffff;
     font-size: 25px;
@@ -288,13 +294,21 @@ a:focus {
     margin-bottom: 15px;
 }
 
-.hero .hero-text h1 {
-    color: #ffffff;
-    font-size: 60px;
-    font-weight: 700;
-    letter-spacing: 3px;
-    margin-bottom: 15px;
+
+.hero-text text {
+    fill: none;
+    stroke: black;
+    stroke-width: 0.5px;
+    stroke-linejoin: round;
+    animation:pulsate 2s infinite;
 }
+
+@keyframes pulsate {
+    50%{
+        stroke-width: 5px;
+    }
+}
+
 
 .hero .hero-text h2 {
     display: inline-block;
@@ -304,6 +318,15 @@ a:focus {
     font-size: 35px;
     font-weight: 600;
 }
+
+    .hero .hero-text h2{
+        display: inline-block;
+        margin: 0;
+        height: 35px;
+        color: #ffffff;
+        font-size: 35px;
+        font-weight: 600;
+    }
 
 .hero .hero-text .typed-text {
     display: none;
@@ -1505,7 +1528,7 @@ a:focus {
     position: relative;
     margin-top: 45px;
     background: #1B1464;
-    background: linear-gradient(to top right,rgba(151, 143, 165, 0.85), rgba(36, 12, 213, 0.85)), url(/img/background.jpg);
+    background: linear-gradient(to top right,rgba(151, 143, 165, 0.85), rgba(36, 12, 213, 0.85)), url(/img/background.jpg   );
 }
 
 .footer .container-fluid {
