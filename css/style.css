@@ -953,8 +953,7 @@ a:focus {
     width: 100%;
     margin: 45px 0;
     padding: 90px 0;
-    background: #1B1464;
-    background: linear-gradient(to top right,rgba(151, 143, 165, 0.85), rgba(36, 12, 213, 0.85)), url(/img/background.jpg);
+    background: linear-gradient(to bottom right,rgba(71, 139, 254, 0.85),rgba(71,139,254,0.85),rgba(151, 143, 165, 0.85),rgba(96,25,254,0.85), rgba(126, 62, 238, 0.85)),url(/img/background.jpg);
 }
 
 .banner .container {
@@ -1011,7 +1010,7 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 45px 0 15px 0;
-    background: linear-gradient(to top right,rgba(151, 143, 165, 0.85), rgba(36, 12, 213, 0.85)), url(/img/background.jpg);
+    background: linear-gradient(to bottom right,rgba(71, 139, 254, 0.85),rgba(71,139,254,0.85),rgba(151, 143, 165, 0.85),rgba(96,25,254,0.85), rgba(126, 62, 238, 0.85)),url(/img/background.jpg);
     
 }
 
@@ -1275,7 +1274,7 @@ a:focus {
     margin: 45px 0;
     padding: 90px 0;
     background: #1B1464;
-    background: linear-gradient(to top right,rgba(151, 143, 165, 0.85), rgba(36, 12, 213, 0.85)), url(/img/background.jpg);
+    background: linear-gradient(to bottom right,rgba(71, 139, 254, 0.85),rgba(71,139,254,0.85),rgba(151, 143, 165, 0.85),rgba(96,25,254,0.85), rgba(126, 62, 238, 0.85)),url(/img/background.jpg);
 }
 
 .testimonial .container {
@@ -1366,7 +1365,7 @@ a:focus {
     width: 100%;
     margin: 45px 0;
     background: #1B1464;
-    background: linear-gradient(to top right,rgba(151, 143, 165, 0.85), rgba(36, 12, 213, 0.85)), url(/img/background.jpg);
+    background: linear-gradient(to bottom right,rgba(71, 139, 254, 0.85),rgba(71,139,254,0.85),rgba(151, 143, 165, 0.85),rgba(96,25,254,0.85), rgba(126, 62, 238, 0.85)),url(/img/background.jpg);
 }
 
 .contact .container-fluid {
@@ -1528,7 +1527,7 @@ a:focus {
     position: relative;
     margin-top: 45px;
     background: #1B1464;
-    background: linear-gradient(to top right,rgba(151, 143, 165, 0.85), rgba(36, 12, 213, 0.85)), url(/img/background.jpg   );
+    background: linear-gradient(to bottom right,rgba(71, 139, 254, 0.85),rgba(71,139,254,0.85),rgba(151, 143, 165, 0.85),rgba(96,25,254,0.85), rgba(126, 62, 238, 0.85)),url(/img/background.jpg);
 }
 
 .footer .container-fluid {
