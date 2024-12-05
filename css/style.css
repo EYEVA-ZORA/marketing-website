@@ -1006,6 +1006,61 @@ a:focus {
 /*******************************/
 /********* Pricing CSS *********/
 /*******************************/
+
+.toggle-buttons {
+    margin: 20px 0;
+}
+
+.toggle-buttons .btn {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #414141;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.toggle-buttons .btn.active {
+    background-color: #1B1464;
+    font-weight: bold;
+}
+
+.toggle-buttons .btn:hover {
+    background-color: #1B1464;
+}
+.price-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Ensure all cards have the same height */
+}
+
+.price-body {
+    flex-grow: 1; /* Makes the body take up available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 20px; /* Add space below shorter lists */
+}
+
+.price-body ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.price-body ul li {
+    padding: 5px 0; /* Optional: Adds spacing between features */
+}
+
+.price-header, .price-footer {
+    text-align: center;
+}
+
+
+
 .price {
     position: relative;
     width: 100%;

@@ -105,5 +105,26 @@
         portfolioIsotope.isotope({filter: $(this).data('filter')});
     });
     
+
+
+    
+    $(document).ready(function () {
+        $('#hardware-btn').on('click', function () {
+            $('#hardware-pricing').show();
+            $('#software-pricing').hide();
+            $('#hardware-btn').addClass('active');
+            $('#software-btn').removeClass('active');
+        });
+    
+        $('#software-btn').on('click', function () {
+            $('#software-pricing').show();
+            $('#hardware-pricing').hide();
+            $('#software-btn').addClass('active');
+            $('#hardware-btn').removeClass('active');
+        });
+    });
+    
+    
+
 })(jQuery);
 
